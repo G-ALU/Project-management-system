@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DASHBOARD OF PROJECT MANAGEMENT SYSTEM</h1>
+        <div class="controls">
+            <button id="createProjectBtn" class="bro">Create Project</button>
+            <button id="deleteProjectBtn" class="bro">Delete Project</button>
+            <button id="viewOneProjectBtn" class="bro">View One Project</button>
+            <button id="viewAllProjectsBtn" class="bro">View All Projects</button>
+        </div>
+        <div class="project-form" id="projectForm">
+            <input type="text" id="projectName" placeholder="Enter Project Name">
+            <button id="saveProjectBtn" class="bro">Save Project</button>
+        </div>
+        <table id="projectTable">
+           
+                <tr>
+                    <th>Project Name</th>
+                    <th>Actions</th>
+                </tr>
+            
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.controls {
+    width: 100%;
+    margin-bottom: 20px;
+   
+}
+
+button {
+    margin-right: 10px;
+}
+
+.project-form {
+    margin-bottom: 20px;
+}
+
+#projectForm {
+    display: none;
+}
+
+table {
+    width: 100%;
+    
+}
+
+table, th, td {
+    border: 20px solid rgba(3, 170, 31, 0.993);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.bro:hover{
+    background-color: rgb(43, 46, 226);
+    color: white;
+}
